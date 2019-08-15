@@ -31,6 +31,14 @@
     },
     "resources": [
         {
+            "Key": "1010412c-59eb-44ba-aa5c-758e2ccac696",
+            "Value": {
+                "id": "a3a1d520-0b91-4fdb-b536-9f6fad46a5ea",
+                "resourcePath": "objects\\obj_Waypoint\\obj_Waypoint.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "27904a30-6f15-49ef-a84d-4986c570b20a",
             "Value": {
                 "id": "393b8262-1bf8-4b73-8fd3-ba8da35bbbe3",
