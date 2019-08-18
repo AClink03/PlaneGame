@@ -1,6 +1,14 @@
 PlaneGame
 Fighter Jet roguelike RPG in Game Maker Studio 2
 
+8/15
+	I spent a few hours working how the rooms work in GMS2. I was going to have a 2d array storing everything, but I can take a 
+few shortcuts and save myself some time and trouble. I'm working on changing my napkin notes over to using direct spritebox collisions 
+instead of digging through lists of stuff (mostly because I can't figure out how to make grids of lists in GMS2, but that'll be for another day). 
+For now, I've got a decent handle on how to make collisions. I didn't do the break turns, so those are still on the list.
+
+
+
 8/13
 
  Added slip left and slip right, changed which keys were bound to which.

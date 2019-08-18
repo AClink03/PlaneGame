@@ -55,6 +55,22 @@
             }
         },
         {
+            "Key": "4b54b2c6-57c4-4695-a0cc-3d63299b3de1",
+            "Value": {
+                "id": "768f181e-1ee3-4a08-a88f-1eb3cebd7f96",
+                "resourcePath": "sprites\\spr_StableEventCollision\\spr_StableEventCollision.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "55aa3664-802c-48d1-835e-388d4773d5f9",
+            "Value": {
+                "id": "617cffb8-e288-45fa-b284-e9dc0a8920eb",
+                "resourcePath": "sprites\\spr_MobileEventCollision\\spr_MobileEventCollision.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "65abc6f5-e53f-49e8-ae73-06eefb5c26f0",
             "Value": {
                 "id": "35a6a12f-a5b4-4df5-8e4a-3c3b51c4d17f",
