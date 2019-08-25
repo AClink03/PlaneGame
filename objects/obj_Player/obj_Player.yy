@@ -5,16 +5,6 @@
     "name": "obj_Player",
     "eventList": [
         {
-            "id": "8928ffed-422b-489d-a76c-025df127fdf9",
-            "modelName": "GMEvent",
-            "mvc": "1.0",
-            "IsDnD": true,
-            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-            "enumb": 0,
-            "eventtype": 0,
-            "m_owner": "65abc6f5-e53f-49e8-ae73-06eefb5c26f0"
-        },
-        {
             "id": "70ee9853-c5a0-435d-85b3-bd8c15697e89",
             "modelName": "GMEvent",
             "mvc": "1.0",
@@ -91,7 +81,22 @@
     "physicsShape": 1,
     "physicsShapePoints": null,
     "physicsStartAwake": true,
-    "properties": null,
+    "properties": [
+        {
+            "id": "7e6bc871-d18c-4d13-b2db-bba413e67d3c",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "6",
+            "varName": "facing",
+            "varType": 0
+        }
+    ],
     "solid": false,
     "spriteId": "c1c28238-e483-4cc2-bbfa-7cd71545f5d9",
     "visible": true

@@ -1,3 +1,21 @@
+/// @DnDAction : YoYo Games.Common.Execute_Code
+/// @DnDVersion : 1
+/// @DnDHash : 5B5B0F9E
+/// @DnDArgument : "code" "/// draw ds grid in debug mode$(13_10)draw_set_font(fnt_debug);$(13_10)draw_set_color(c_fuchsia);$(13_10)$(13_10)$(13_10)if (debug_mode){$(13_10)	var ix, iy;$(13_10)	for(iy = 0; iy < gridHeight; iy++) {$(13_10)		for (ix = 0; ix < gridWidth; ix++) {			$(13_10)		draw_text(grid_to_pixel(ix) - 5, grid_to_pixel(iy) - 7, ds_grid_get(grid, ix, iy));$(13_10)		}$(13_10)	}$(13_10)}"
+/// draw ds grid in debug mode
+draw_set_font(fnt_debug);
+draw_set_color(c_fuchsia);
+
+
+if (debug_mode){
+	var ix, iy;
+	for(iy = 0; iy < gridHeight; iy++) {
+		for (ix = 0; ix < gridWidth; ix++) {			
+		draw_text(grid_to_pixel(ix) - 5, grid_to_pixel(iy) - 7, ds_grid_get(grid, ix, iy));
+		}
+	}
+}
+
 /// @DnDAction : YoYo Games.Loops.For_Loop
 /// @DnDVersion : 1
 /// @DnDHash : 6E9CD450
